@@ -17,7 +17,7 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: pygments
 
 assets: https://github.com/llyangMax/llyangBlog/assets
-baseurl: https://github.com/llyangMax/llyangBlog
+# baseurl: https://github.com/llyangMax/llyangBlog
 
 # pagination
 paginate: 10
