@@ -3,11 +3,11 @@ title: llyang's Blog 报于桃花一树开
 email: llyangmax@163.com
 description: Source of me.
 localurl: "" # the subpath of your site, e.g. /blog/
-url: http://llyangmax.github.io # the base hostname & protocol for your site
+url: http://llyRayYoung.github.io # the base hostname & protocol for your site
 me-img: "/img/HeadPicture.png"
 
 twitter_username:
-github_username: llyangmax
+github_username: llyRayYoung
 
 # This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/
@@ -16,8 +16,8 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: pygments
 
-# assets: http://sunxiaobiu.github.io/assets
-# baseurl: http://sunxiaobiu.github.io
+assets: http://llyangmax.github.io/assets
+baseurl: http://llyangmax.github.io
 
 # pagination
 paginate: 10
@@ -91,7 +91,7 @@ author:
   # zhihu: llyangmax     ## e.g. jark  for http://www.zhihu.com/people/jark
   email: llyangmax@163.com     ## e.g. imjark@gmail.com
   twitter:    ## e.g. jarkwu for https://twitter.com/jarkwu
-  github: llyangmax    ## e.g. wuchong for https://github.com/wuchong
+  github: llyRayYoung    ## e.g. wuchong for https://github.com/wuchong
   # facebook: xiaobiu.sun  ## e.g. imjark for https://facebook.com/imjark
   linkedin:   ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
   google_plus:    ## e.g. "111190881341800841449" for https://plus.google.com/u/0/111190881341800841449, the "" is needed!
