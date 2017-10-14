@@ -16,8 +16,8 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: pygments
 
-# assets: http://llyangmax.github.io/assets
-# baseurl: http://llyangmax.github.io
+assets: http://llyangmax.github.io/assets
+baseurl: http://llyangmax.github.io
 
 # pagination
 paginate: 10
