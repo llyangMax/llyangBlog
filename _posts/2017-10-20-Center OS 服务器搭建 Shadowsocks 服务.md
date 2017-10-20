@@ -22,7 +22,7 @@ excerpt: ShadowSocks（中文名影梭） 是由@clowwindy所开发的一个开�
 yum install python-setuptools && easy_install pip    
 ```
 
-![](http://llyangblog.cn/img/20171020P1.png)
+![P1](http://llyangblog.cn/img/20171020P1.png)
 
 > 然后再安装shadowsock   
 
@@ -30,7 +30,7 @@ yum install python-setuptools && easy_install pip
 pip install shadowsocks    
 ```   
 
-![](http://llyangblog.cn/img/20171020P2.png)
+![P2](http://llyangblog.cn/img/20171020P2.png)
 
 ### 2.运行ShadowSocks服务
 > 启动命令如下：如果要停止运行，将命令中的start改成stop。
@@ -78,4 +78,4 @@ chkconfig --add autostart.sh
 chkconfig autostartss.sh on
 ````
 > 如果没有添加chkconfig: 输入chkconfig --add autostart.sh，可能会出现以下错误，至少我遇到这个问题了。   
-![](http://llyangblog.cn/img/20171020P3.png)
+![P3](http://llyangblog.cn/img/20171020P3.png)
