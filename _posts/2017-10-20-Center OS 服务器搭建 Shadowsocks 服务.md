@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Center OS 服务器搭建 Shadowsocks 服务
 category: 其他
-tags: 
+tags:
   - VPS
   - VPN
   - shadowsock
@@ -22,7 +22,7 @@ excerpt: ShadowSocks（中文名影梭） 是由@clowwindy所开发的一个开�
 yum install python-setuptools && easy_install pip    
 ```
 
-![确认截图](http://llyangblog.cn/img/20171020P1.png)
+![](http://llyangblog.cn/img/20171020P1.png)
 
 > 然后再安装shadowsock   
 
@@ -30,7 +30,7 @@ yum install python-setuptools && easy_install pip
 pip install shadowsocks    
 ```   
 
-![确认截图](http://llyangblog.cn/img/20171020P1.png)
+![](http://llyangblog.cn/img/20171020P2.png)
 
 ### 2.运行ShadowSocks服务
 > 启动命令如下：如果要停止运行，将命令中的start改成stop。
@@ -39,7 +39,7 @@ pip install shadowsocks
 sudo ssserver -p 8388 -k password -m aes-256-cfb -d start
 ````   
 
-> 也可以使用配置文件进行配置，方法创建/etc/shadowsocks.json文件，填入如下内容： 
+> 也可以使用配置文件进行配置，方法创建/etc/shadowsocks.json文件，填入如下内容：
 
 ````   
 {
@@ -57,7 +57,7 @@ sudo ssserver -p 8388 -k password -m aes-256-cfb -d start
 
 ````
 ssserver -c /etc/shadowsocks.json -d start
-```` 
+````
 
 ### 3.加入开机启动，一劳永逸
 > 启动之后，每次重启VPS都要重新启动一次ShadowSocks服务，我们可以配置开机启动   
@@ -78,4 +78,4 @@ chkconfig --add autostart.sh
 chkconfig autostartss.sh on
 ````
 > 如果没有添加chkconfig: 输入chkconfig --add autostart.sh，可能会出现以下错误，至少我遇到这个问题了。   
-![错误](http://llyangblog.cn/img/20171020P1.png)
+![](http://llyangblog.cn/img/20171020P3.png)
