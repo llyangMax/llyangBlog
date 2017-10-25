@@ -74,7 +74,7 @@ ssserver -c /etc/shadowsocks.json -d start
 ````
 chmod +x /etc/rc.d/init.d/autostartss.sh
 cd /etc/rc.d/init.d/
-chkconfig --add autostart.sh
+chkconfig --add autostartss.sh
 chkconfig autostartss.sh on
 ````
 > 如果没有添加chkconfig: 输入chkconfig --add autostart.sh，可能会出现以下错误，至少我遇到这个问题了。   
